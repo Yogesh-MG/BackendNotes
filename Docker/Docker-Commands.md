@@ -22,4 +22,7 @@ $docker run -d -p 5000:4000 <image-name>
 	#-d deatached from the terminal
 	#-p 5000:4000 Map port 5000 of the machine to port 4000 in the container
 
+#To run commands inside the container 
+$docker exec -it <conainer-name> <command-to-run>
+	#-it refers to interactive mode
 ```
