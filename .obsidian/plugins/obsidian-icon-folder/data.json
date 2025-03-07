@@ -1,0 +1,36 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "TiMathIntegral",
+      "TiLine",
+      "LiPi",
+      "TiLayoutDistributeVertical",
+      "FabGripfire"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "Obsidian Vault/_AI_ML_/python/Matplotlib.md": "LiMap",
+  "Obsidian Vault/_AI_ML_/python/Pytorch.md": "FabGripfire",
+  "Obsidian Vault/_AI_ML_/python/Pandas.md": "TiLayoutDistributeVertical",
+  "Obsidian Vault/_AI_ML_/python/numpy.md": "LiPi",
+  "Obsidian Vault/_AI_ML_/python/Scikit-learn.md": "TiLine",
+  "Obsidian Vault/_AI_ML_/python/Seaborn.md": "TiMathIntegral"
+}

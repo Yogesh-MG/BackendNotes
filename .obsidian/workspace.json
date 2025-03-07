@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "6abef13add9dcb7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "07dd9d594af6f86d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcc4cb26fa763346",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2312f5e9f1f57ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "1945cda2c6fe5609",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5d545263a99cadd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fb739b0d24cfe468",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ffd010e02cf04080",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "11f8258cfdd6b714",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc0656e3ac0284bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49a171ac1ae64454",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "36fba408cc3e5e7e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Git"
+            }
+          },
+          {
+            "id": "18a2c1dc69ee13c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Git"
+            }
+          },
+          {
+            "id": "7658f3c12900f6d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "866a00b54c3f720f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Git"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d5d545263a99cadd",
+  "lastOpenFiles": [
+    "Linux command sheet.md",
+    "Docker/Docker-Commands.md",
+    "Docker/STEP-1-WHY-How to install a docker.md",
+    "1-Project description/gym planning.excalidraw.md",
+    "1-Project description/Fysio planning.md",
+    "1-Project description/Data for project/Pasted Image 20240915111805_500.png",
+    "1-Project description/Data for project/Pasted Image 20240915111805_493.png",
+    "1-Project description/Data for project/Pasted Image 20240915111805_487.png",
+    "Excalidraw/Drawing 2025-01-23 11.16.56.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-11 11.44.36.excalidraw.md",
+    "Git.md",
+    "Pasted image 20250306223541.png",
+    "Skywardcraft WEB dev.md",
+    "Django/Basic/STEP-1-WHY-DJANGO.md",
+    "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
+    "Django/Basic/STEP-3-Create a Project and app.md",
+    "Django/Basic/STEP-5-How to add Export option to admin.md",
+    "Django/Basic/STEP-6-How to integrate Email in Django.md",
+    "Docker",
+    "Django/Basic/STEP-7-To create login and signup.md",
+    "Django/Basic/STEP-2-Django-File-Structure.md",
+    "DBMS/How to connect to Postgresql in your linux system.md",
+    "Pytorch/pytorch-basic.md",
+    "Untitled",
+    "Django/Basic/Step-10-How to set-up a scheduler in django.md",
+    "DBMS/How to install PostgreSQL/How to install PostgreSQL.md",
+    "DBMS/How to link the postgresql with Django.md",
+    "pythonanywhere/How to host on Pythonanywhere.com.md",
+    "Django/Basic/STEP-9-How to set-up image in django.md",
+    "Django/Basic/STEP-8-How to add two form in same HTML page.md",
+    "1-Project description/Data for project/data pipeline (1).png",
+    "Excalidraw/Drawing 2024-12-11 11.43.45.excalidraw.md",
+    "Excalidraw",
+    "pythonanywhere",
+    "wagtail",
+    "1-Project description/Data for project/Pasted Image 20240903123403_912.png",
+    "Pasted Image 20240915111604_260.png",
+    "Pasted Image 20240915111604_248.png",
+    "Pasted Image 20240915111604_207.png",
+    "1-Project description/Data for project/Pasted Image 20240910104010_996.png",
+    "1-Project description/Unconfirmed 75567.crdownload",
+    "1-Project description/Unconfirmed 601900.crdownload",
+    "DBMS/How to install PostgreSQL"
+  ]
+}
