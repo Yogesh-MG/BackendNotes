@@ -11,10 +11,10 @@
             "id": "bcc4cb26fa763346",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -166,14 +166,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "d5d545263a99cadd",
   "lastOpenFiles": [
+    "Docker/STEP-1-WHY-How to install a docker.md",
+    "Git.md",
     "Linux command sheet.md",
     "Docker/Docker-Commands.md",
-    "Docker/STEP-1-WHY-How to install a docker.md",
     "1-Project description/gym planning.excalidraw.md",
     "1-Project description/Fysio planning.md",
     "1-Project description/Data for project/Pasted Image 20240915111805_500.png",
@@ -181,7 +184,6 @@
     "1-Project description/Data for project/Pasted Image 20240915111805_487.png",
     "Excalidraw/Drawing 2025-01-23 11.16.56.excalidraw.md",
     "Excalidraw/Drawing 2024-12-11 11.44.36.excalidraw.md",
-    "Git.md",
     "Pasted image 20250306223541.png",
     "Skywardcraft WEB dev.md",
     "Django/Basic/STEP-1-WHY-DJANGO.md",
