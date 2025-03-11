@@ -53,5 +53,4 @@ urlpatterns = [
     path('send_email/', views.send_email, name='email'),
 ]
 ```
-
 [[STEP-7-To create login and signup]]

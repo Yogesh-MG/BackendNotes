@@ -24,7 +24,6 @@
 1. **Open the terminal of Linux:**
     
     - Go to the [official PostgreSQL download page](https://www.postgresql.org/download/windows/).(If you feel stuck)
-	
 ```shell
 $sudo apt update
 $sudo apt install postgresql postgresql-contrib  

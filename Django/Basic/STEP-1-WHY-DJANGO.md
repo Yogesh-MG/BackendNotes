@@ -18,4 +18,6 @@ $ pip install virtualenv   #this will install the virtual environment
 $ virtualenv name-of-your-environment
 $ cd name-of-your-environment\Scripts\activate   #this will activate
 ```
-[[STEP-2-Django-File-Structure]]
+- [ ] **[[STEP-2-Django-File-Structure]]**
+- [ ] ***[[Django-Commands]]**
+

@@ -1,3 +1,4 @@
+[[Django-Commands]]
 ```shell
 my_django_project/        # Project directory
     manage.py             # Command-line utility for Django project management

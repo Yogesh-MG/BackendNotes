@@ -54,6 +54,7 @@
   - Command: `python manage.py check --deploy`
   - Goal: No critical warnings.
   - Fix: Address each warning (e.g., disable `DEBUG`).
+  - Check out in **[[STEP-2-Django-File-Structure]]**
 
 ---
 
