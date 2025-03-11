@@ -38,10 +38,28 @@ A curated list of must-know Linux commands for DevOps engineers, covering system
 ## Permissions & Ownership
 - `chmod` - Change file permissions.
   - Use: `chmod 755 script.sh` (rwx for owner, rx for others), `chmod +x file` (executable).
+```css
+ How to decide the ownership of file
+ Numeric Representation
+
+Permissions are often written as numbers (octal):
+
+- r = 4, w = 2, x = 1.
+    
+- Add them up for each category:
+    
+    - rwx = 7 (4+2+1).
+        
+    - r-x = 5 (4+0+1).
+        
+    - r-- = 4 (4+0+0). Thus, rwxr-xr-- = 754
+```
 - `chown` - Change file ownership.
   - Use: `chown user:group file.txt`, `chown -R user:group /dir/`.
 - `sudo` - Run commands as another user (usually root).
   - Use: `sudo apt update`.
+- `ls -l` - To see Ownership of files 
+  - Use: `ls -l`
 
 ## Package Management
 - `apt` - Debian/Ubuntu package manager.
@@ -127,3 +145,5 @@ A curated list of must-know Linux commands for DevOps engineers, covering system
 - **Chain Commands**: Use `|` (pipe) to pass output, e.g., `ps aux | grep python`.
 - **Redirect**: Use `>` to write to a file, `>>` to append, e.g., `echo "test" > file.txt`.
 - **Aliases**: Add shortcuts in `~/.bashrc`, e.g., `alias ll='ls -l'`.
+
+

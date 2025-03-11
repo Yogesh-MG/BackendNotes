@@ -3,7 +3,6 @@
   "url-into-selection",
   "obsidian-outliner",
   "obsidian-icon-folder",
-  "obsidian-imgur-plugin",
   "table-editor-obsidian",
   "calendar",
   "obsidian-code-block-enhancer",
@@ -18,5 +17,8 @@
   "tabs",
   "beautitab",
   "advanced-canvas",
-  "autocorrect-formatter"
+  "autocorrect-formatter",
+  "obsidian-banners",
+  "obsidian-day-planner",
+  "dataview"
 ]
