@@ -17,6 +17,3 @@ class Command(BaseCommand):
 
 
 ### 2.To check whether you code works or not
-<p> Just go to manage.py file directory and in the terminal run the command <span style="color:green;">python3 manage.py run_task</span> assuming that the .py file created at <span style="color:green;">1</span> as run_task.py</p>
-
-

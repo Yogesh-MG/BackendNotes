@@ -19,11 +19,14 @@ $sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 $sudo apt-get update
 ```
 
+
 2. Install the latest docker version
 ```shell
 ## Now install the latest version of the Docker
 $sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+
 3. Launch the downloaded Docker
 ```shell
 ## Now Launch the Docker either using the GUI or in terminal follow

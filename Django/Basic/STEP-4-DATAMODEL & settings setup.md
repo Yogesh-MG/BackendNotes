@@ -199,3 +199,6 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 SECRET_KEY = env('DJANGO_SECRET_KEY')
 ```
+
+[[STEP-5-How to add Export option to admin]]
+[[How to install PostgreSQL]]

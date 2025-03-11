@@ -23,7 +23,7 @@
 
 1. **Open the terminal of Linux:**
     
-    - Go to the [official PostgreSQL download page](https://www.postgresql.org/download/windows/).(If you feel stucked)
+    - Go to the [official PostgreSQL download page](https://www.postgresql.org/download/windows/).(If you feel stuck)
 	
 ```shell
 $sudo apt update
@@ -62,7 +62,6 @@ $sudo systemctl start postgresql
 
 
 
-
 <h6>Error note</h6>
 <p>So when the user try to open the pgadmin4 from apps they may encounter the error like 
 pgadmin cannot be contacted </p>
@@ -70,4 +69,4 @@ pgadmin cannot be contacted </p>
 **C:\Users\%User_name%\AppData\Roaming\pgAdmin**  in your file.
 <p>in this delete <h7>pgadmin4.db</h7> file which is causing the conflict it helps to solve your problem</p>
 
-Next
+[[How to connect to Postgresql in your linux system]]

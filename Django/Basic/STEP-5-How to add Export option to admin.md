@@ -31,3 +31,5 @@ admin.site.register(from_model, customAdmin)
 
 
 ```
+
+[[STEP-6-How to integrate Email in Django]]

@@ -56,3 +56,5 @@ $ python manage.py runserver
 ```
 	the admin site will appear after you clink on the https link, enter the   
 	 credentials. enjoy the admin site. 
+
+[[STEP-4-DATAMODEL & settings setup]]

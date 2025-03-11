@@ -9,6 +9,7 @@
 	To stop a running container                  ``$docker stock <container-id>
 	To Remove the container                      ``$docker rm <container-id>
 	To view logs of the container                ``$docker logs <container-id>
+	To execute commands inside container         ``$docker exec -it <container-id>
 
 
 ```shell
@@ -23,6 +24,11 @@ $docker run -d -p 5000:4000 <image-name>
 	#-p 5000:4000 Map port 5000 of the machine to port 4000 in the container
 
 #To run commands inside the container 
-$docker exec -it <conainer-name> <command-to-run>
+$docker exec -it <conainer-name> bash
 	#-it refers to interactive mode
+
+#To setup a persistent Data mode 
+$docker run -d --name my-sql -e MYSQL_ROOT_PASSWORD=password -v mysql-data:/va r/lib/mysql mysql
+	#-v mysql-data:/var/lib/mysql create a volume called mysql-data. 	
+
 ```

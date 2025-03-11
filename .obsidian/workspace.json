@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker-Commands.md",
+                "file": "DBMS/How to connect to Postgresql in your linux system.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Docker-Commands"
+              "title": "How to connect to Postgresql in your linux system"
+            }
+          },
+          {
+            "id": "359e2d6132be80e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          },
+          {
+            "id": "d64c188560ec5011",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBMS/How to install PostgreSQL/How to install PostgreSQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "How to install PostgreSQL"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +133,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,18 +232,31 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bcc4cb26fa763346",
+  "active": "d64c188560ec5011",
   "lastOpenFiles": [
+    "DBMS/How to connect to Postgresql in your linux system.md",
     "DBMS/How to install PostgreSQL/How to install PostgreSQL.md",
-    "Docker/STEP-1-WHY-How to install a docker.md",
+    "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
+    "Django/Basic/STEP-6-How to integrate Email in Django.md",
+    "Django/Basic/STEP-8-How to add two form in same HTML page.md",
+    "Django/Basic/STEP-7-To create login and signup.md",
+    "Django/Basic/Step-10-How to set-up a scheduler in django.md",
+    "Django/Basic/STEP-9-How to set-up image in django.md",
+    "Django/Basic/STEP-5-How to add Export option to admin.md",
+    "Django/Basic/STEP-3-Create a Project and app.md",
+    "Django/Basic/STEP-2-Django-File-Structure.md",
+    "Django/Basic/STEP-1-WHY-DJANGO.md",
+    "Docker/Docker-Application-Security-Check.md",
     "Git.md",
-    "Linux command sheet.md",
     "Docker/Docker-Commands.md",
+    "Docker/STEP-1-WHY-How to install a docker.md",
+    "DBMS/How to link the postgresql with Django.md",
+    "Untitled.md",
+    "Linux command sheet.md",
     "1-Project description/gym planning.excalidraw.md",
     "1-Project description/Fysio planning.md",
     "1-Project description/Data for project/Pasted Image 20240915111805_500.png",
@@ -203,24 +266,11 @@
     "Excalidraw/Drawing 2024-12-11 11.44.36.excalidraw.md",
     "Pasted image 20250306223541.png",
     "Skywardcraft WEB dev.md",
-    "Django/Basic/STEP-1-WHY-DJANGO.md",
-    "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
-    "Django/Basic/STEP-3-Create a Project and app.md",
-    "Django/Basic/STEP-5-How to add Export option to admin.md",
-    "Django/Basic/STEP-6-How to integrate Email in Django.md",
     "Docker",
-    "Django/Basic/STEP-7-To create login and signup.md",
-    "Django/Basic/STEP-2-Django-File-Structure.md",
-    "DBMS/How to connect to Postgresql in your linux system.md",
     "Pytorch/pytorch-basic.md",
     "Untitled",
-    "Django/Basic/Step-10-How to set-up a scheduler in django.md",
-    "DBMS/How to link the postgresql with Django.md",
     "pythonanywhere/How to host on Pythonanywhere.com.md",
-    "Django/Basic/STEP-9-How to set-up image in django.md",
-    "Django/Basic/STEP-8-How to add two form in same HTML page.md",
     "1-Project description/Data for project/data pipeline (1).png",
-    "Excalidraw/Drawing 2024-12-11 11.43.45.excalidraw.md",
     "Excalidraw",
     "pythonanywhere",
     "wagtail",

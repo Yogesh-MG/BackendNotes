@@ -247,3 +247,5 @@ python manage.py runserver
 ```
 
 Now, you should have functional login and signup pages styled with CSS.
+
+[[STEP-8-How to add two form in same HTML page]]

@@ -18,5 +18,4 @@ $ pip install virtualenv   #this will install the virtual environment
 $ virtualenv name-of-your-environment
 $ cd name-of-your-environment\Scripts\activate   #this will activate
 ```
-
-[Next](obsidian://open?vault=smart-india&file=Django%2FBasic%2FSTEP-2-Django-File-Structure)
+[[STEP-2-Django-File-Structure]]

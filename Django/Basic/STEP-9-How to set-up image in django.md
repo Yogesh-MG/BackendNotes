@@ -62,4 +62,5 @@ def home(request):
         </div>
     </section>
 ```
-cm
+
+[[Step-10-How to set-up a scheduler in django]]

@@ -95,3 +95,5 @@ class Fillup(models.Model):
 class Newsletter(models.Model):
     Email = models.EmailField(blank=False, unique=True)
 ```
+
+[[STEP-9-How to set-up image in django]]

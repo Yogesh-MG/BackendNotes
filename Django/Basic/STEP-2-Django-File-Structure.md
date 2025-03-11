@@ -25,4 +25,4 @@ my_django_project/        # Project directory
         tests.py          # Unit tests for your app
 
 ```
-[Next](obsidian://open?vault=smart-india&file=Django%2FBasic%2FSTEP-3-Create%20a%20Project%20and%20app)
+[[STEP-3-Create a Project and app]]
