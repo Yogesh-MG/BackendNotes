@@ -175,6 +175,16 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "5277a6e8ce41c9f2",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ],
         "currentTab": 5
