@@ -54,9 +54,57 @@
               "icon": "lucide-file",
               "title": "WHAT-IS-API"
             }
+          },
+          {
+            "id": "74ccf85248079701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django/Django-api/STEP-1-Package-Installation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STEP-1-Package-Installation"
+            }
+          },
+          {
+            "id": "5869e57b09931fb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django/Django-api/STEP-1-Package-Installation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STEP-1-Package-Installation"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -235,20 +283,25 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "0e395a62cfb4cbd7",
+  "active": "5869e57b09931fb3",
   "lastOpenFiles": [
-    "Django/Basic/STEP-1-WHY-DJANGO.md",
-    "Django/Django-api/WHAT-IS-API.md",
+    "Django/Django-api/STEP-2-SERIALIZERS.md",
+    "Django/Django-api/STEP-1-Package-Installation.md",
+    "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
+    "Django/Basic/STEP-2-Django-File-Structure.md",
+    "Django/Basic/STEP-5-How to add Export option to admin.md",
+    "Docker/Docker-Application-Security-Check.md",
     "Django/Django-Commands.md",
+    "Django/Basic/STEP-1-WHY-DJANGO.md",
+    "Django/Basic/STEP-3-Create a Project and app.md",
+    "Django/Django-api/WHAT-IS-API.md",
     "Django/Django-api",
     "Essential Linux Commands for DevOps.md",
     "DBMS/How to connect to Postgresql in your linux system.md",
     "DBMS/How to install PostgreSQL/How to install PostgreSQL.md",
     "Docker/Docker-Commands.md",
     "Docker/STEP-1-WHY-How to install a docker.md",
-    "Docker/Docker-Application-Security-Check.md",
     "Django/Basic/STEP-6-How to integrate Email in Django.md",
-    "Django/Basic/STEP-2-Django-File-Structure.md",
     "2025-03-12.md",
     "2025-03-11.md",
     "2025-03-10.md",
@@ -256,15 +309,11 @@
     "Untitled 1.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Django/Basic/STEP-3-Create a Project and app.md",
-    "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
-    "Django/Basic/STEP-5-How to add Export option to admin.md",
     "Django/Basic/STEP-7-To create login and signup.md",
     "Django/Basic/STEP-8-How to add two form in same HTML page.md",
     "Django/Basic/Step-10-How to set-up a scheduler in django.md",
     "Django/Basic/STEP-9-How to set-up image in django.md",
     "DBMS/How to link the postgresql with Django.md",
-    "1-Project description/gym planning.excalidraw.md",
     "1-Project description/Data for project/Pasted Image 20240915111805_500.png",
     "1-Project description/Data for project/Pasted Image 20240915111805_493.png",
     "1-Project description/Data for project/Pasted Image 20240915111805_487.png",

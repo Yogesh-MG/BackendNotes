@@ -8,6 +8,6 @@
 - Django REST Framework (DRF): It's a powerful toolkit built on top of Django, it simplifies creating the APIs by providing tools like serializers (Which converts the data between Python objects and formats like JSON), views, and authentication.
 - Basics steps to follow:
    - Step1-Define the **Models** in <span style="color:green">models.py</span> to represent the data
-   - Step2-Use serializers in <span style="color:green">serializer.py</span> for data conversion
-   - Step3-Create views function in <span style="color:green">views.py</span> to handle API request and response
-   - Step4-Map these in URLs in <span style="color:green">urls.py</span> so they are accessible at endpoints like **/api/users/**.
+   - Step2-Use **serializers** in <span style="color:green">serializer.py</span> for data conversion
+   - Step3-Create **views** function in <span style="color:green">views.py</span> to handle API request and response
+   - Step4-Map these in **URLs** in <span style="color:green">urls.py</span> so they are accessible at endpoints like **/api/users/**.
