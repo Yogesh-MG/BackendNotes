@@ -138,7 +138,9 @@ Permissions are often written as numbers (octal):
   - Use: `history`.
 - `tar` - Archive files.
   - Use: `tar -cvf archive.tar /dir/`, `tar -xvf archive.tar`.
-
+- `purge` - Delete the config file of the software
+  - Use: step-1  `dpkg --list | grep <keyword>`  
+  -         step-2  `sudo apt purge keyword`
 ---
 
 ## Tips
