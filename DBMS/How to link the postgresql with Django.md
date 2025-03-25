@@ -1,5 +1,9 @@
 After the install process of DBMS 
 
+```shell
+$pip install psycopg
+```
+
 step 1: open settings.py of project file 
 ```python 
 DATABASES = {
