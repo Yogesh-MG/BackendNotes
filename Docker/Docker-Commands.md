@@ -33,3 +33,12 @@ $docker run -d --name my-sql -e MYSQL_ROOT_PASSWORD=password -v mysql-data:/va r
 $docker run -d -v mydata:/app/data myapp
 	#Mounts a volume named mydata to the dir /app/data inside the container
 ```
+
+
+# Docker Commands for Building and Running Containers
+
+## Build an Image from a Dockerfile
+```shell
+docker system prune -f --volumes    --- to delete container
+docker-compose down -v
+````
