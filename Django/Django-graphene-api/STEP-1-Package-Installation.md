@@ -1,10 +1,9 @@
 <h3>Things should be installed before moving to API setup</h3>  
-- So make sure you are inside the virtual-environment (if you don't know then refer **[[STEP-1-WHY-DJANGO]]** ) and install the DRF (django-rest-framework) Which is play a a major role in the setup
+- So make sure you are inside the virtual-environment (if you don't know then refer **[[STEP-1-WHY-DJANGO]]** ) and Install Graphene-Django, which integrates GraphQL with Django, and any dependencies.
 
 
 ```shell
-(env)$pip install djangorestframework
-(env)$pip install django-cors-headers
+(env)$pip install graphene-django
 ```
 
 - After installation make the bellow changes in the **settings.py**. 
@@ -21,6 +20,7 @@ INSTALLED_APPS = [
     'rest_framework',  #include this
     'api',
     'corsheaders',     #include this
+    'graphene_django'
 ]
 
 MIDDLEWARE = [
@@ -44,14 +44,14 @@ CORS_ALLOWED_ORIGINS = [
     "https://yourfrontend.com",  # Your production frontend domain
 ]
 
+GRAPHENE = {
+	'SCHEMA': 'project_root_folder.schema.schema'
+}
+
 ```
 
-- As the next step should be defining the database (if you don't know how then refer this **[[STEP-4-DATAMODEL & settings setup]]** )
-- Before moving to the next step make sure this points are fullfiled
-  - <span style="color:green">Package installation</span>
-  - <span style="color:green">Changes in the settings.py</span>
-  - <span style="color:green">Database scheme defined in the models.py</span>
-  - <span style="color:green">makemigrations and migrate</span>
+- As the next step should be defining the database (if you don't know how then refer                 this  **[[STEP-4-DATAMODEL & settings setup]]** )
+ 
 
 
-<span style="color:green">If the above steps are cleared check this</span>. **[[STEP-2-SERIALIZERS]]**
+[NEXT](obsidian://open?vault=Notes-of-All&file=Django%2FDjango-graphene-api%2FSTEP-2-Schema-For-Graphene)

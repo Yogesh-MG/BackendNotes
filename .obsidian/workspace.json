@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b6beacc1aae16cf0",
+        "id": "a506b778460d5c41",
         "type": "tabs",
         "children": [
           {
-            "id": "0a1c6fd90129d27e",
+            "id": "aef7da2a7f284519",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-27 21.50.38.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-27 21.50.38.excalidraw"
+              "type": "beautitab-react-view",
+              "state": {},
+              "title": "New tab"
             }
           }
         ]
@@ -198,38 +195,39 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "0a1c6fd90129d27e",
+  "active": "aef7da2a7f284519",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-27 21.50.38.excalidraw 1.md",
     "Excalidraw/Drawing 2025-03-27 21.50.38.excalidraw.md",
+    "Django/Django-graphene-api/STEP-2-Schema-For-Graphene.md",
+    "Django/Django-graphene-api/STEP-1-Package-Installation.md",
+    "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
+    "Django/Basic/STEP-2-Django-File-Structure.md",
+    "Django/Django-restfull-api/STEP-1-Package-Installation.md",
+    "Django/Django-graphene-api",
+    "Django/Django-restfull-api/WHAT-IS-API.md",
+    "Docker/Docker-Commands.md",
+    "Django/Django-restfull-api/STEP-2-SERIALIZERS.md",
+    "Excalidraw/Drawing 2025-03-27 21.50.38.excalidraw 1.md",
     "DBMS/How to install PostgreSQL/How to install PostgreSQL.md",
     "DBMS/How to connect to Postgresql in your linux system.md",
     "Django/Basic/STEP-5-How to add Export option to admin.md",
-    "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
     "Django/Basic/STEP-3-Create a Project and app.md",
-    "Django/Basic/STEP-2-Django-File-Structure.md",
     "DBMS/How to link the postgresql with Django.md",
-    "Docker/Docker-Commands.md",
     "Django/Django-Commands.md",
     "Django/Basic/STEP-6-How to integrate Email in Django.md",
     "Excalidraw",
     "Django/Basic/STEP-8-How to add two form in same HTML page.md",
-    "Django/Django-api/STEP-1-Package-Installation.md",
     "Docker/Docker-Application-Security-Check.md",
     "Git.md",
     "Essential Linux Commands for DevOps.md",
-    "Django/Django-api/STEP-2-SERIALIZERS.md",
     "Docker/STEP-1-WHY-How to install a docker.md",
     "Django/Basic/STEP-1-WHY-DJANGO.md",
-    "Django/Django-api/WHAT-IS-API.md",
-    "Django/Django-api",
+    "Django/Django-restfull-api",
     "2025-03-12.md",
     "2025-03-11.md",
     "2025-03-10.md",
-    "Untitled 1.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Django/Basic/STEP-7-To create login and signup.md",
     "1-Project description/Data for project/Pasted Image 20240915111805_500.png",
     "1-Project description/Data for project/Pasted Image 20240915111805_493.png",
     "1-Project description/Data for project/Pasted Image 20240915111805_487.png",

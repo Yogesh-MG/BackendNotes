@@ -29,9 +29,12 @@ $docker exec -it <conainer-name> bash
 
 #To setup a persistent Data mode 
 $docker run -d --name my-sql -e MYSQL_ROOT_PASSWORD=password -v mysql-data:/va r/lib/mysql mysql
-	#-v mysql-data:/var/lib/mysql create a volume called mysql-data. 	
+	#-v mysql-data:/var/lib/mysql create a volume called mysql-data. 
+		
 $docker run -d -v mydata:/app/data myapp
 	#Mounts a volume named mydata to the dir /app/data inside the container
+
+$docker system prune -f --volumes    --- to delete container
 ```
 
 
@@ -39,6 +42,6 @@ $docker run -d -v mydata:/app/data myapp
 
 ## Build an Image from a Dockerfile
 ```shell
-docker system prune -f --volumes    --- to delete container
+
 docker-compose down -v
 ````

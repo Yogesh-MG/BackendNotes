@@ -8,38 +8,39 @@ from .models import Users
 class UserSerializers(serializers.ModelSerializer):
 	class Meta:
 		model=Users
-		field='__all__'
+		field='__all__' or ['id', 'username', 'password']
 ```
 
 - in this we imported the data from the database which we want to transfer as API with the help of  rest_framework 
+- So in the field section if you only want to transfer certain data from the database then mention only those to transfer through api
 
 <h4>Define the function in <span style="color:green">views.py</span> to convert the object form data into JSON format</h4>
 `views.py`
 ```python
-from rest_framework import viewsets
+from rest_framework import generics
 from .models import User
 from .serializers import UserSerializer
 
 
-class UsersViewset(viewsets.ReadOnlyModelViewSet):
+class UsersViewset(generics.ListAPIView):
 	queryset = Users.objects.all()
 	serializers_class = UserSerializer
 	
 	
 ```
 
+- <span style='color:green'>generics</span> make you write less code cause you will have predefined sets so leverage it
+- <span style='color:green'>queryset</span> defines what data you want to send through {} this format 
+- <span style='color:green'>serializers_class</span> defines what and all data from the <span style='color:green'>queryset</span> to be sent 
+
 <h4>Allowing the API data-accesing by routing the views function in the urls.py</h4>
 `urls.py`
 ```python
 from django.urls import path, include
-from rest_framework.routers import DefaultRouter
 from .views import UsersViewset
 
-router = DefaultRouter()
-router.register(r'user', UsersViewset, basename='user')
-
 urlpatterns = [
-	path('api/', include(router.urls)),
+	path('api/', UserViewset.as_view(), name='user-list'),
 ]
 ```
 
