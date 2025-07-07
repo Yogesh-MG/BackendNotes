@@ -4,12 +4,13 @@
 	To find version                              ``$docker --verion
 	To run a container                           ``$docker run <image-name>:ver  
 	To Pull the image from the hub               ``$docker pull <image-name>
-	To get names of images in local              ``$docker images
+	To get names of images in local              ``$docker imagesxx
 	To see running containers                    ``$docker ps -a
 	To stop a running container                  ``$docker stock <container-id>
 	To Remove the container                      ``$docker rm <container-id>
 	To view logs of the container                ``$docker logs <container-id>
 	To execute commands inside container         ``$docker exec -it <container-id>
+	To inspect the contsins container            ``$docker inspect <container-id>
 
 
 ```shell
@@ -30,8 +31,8 @@ $docker exec -it <conainer-name> bash
 #To setup a persistent Data mode 
 $docker run -d --name my-sql -e MYSQL_ROOT_PASSWORD=password -v mysql-data:/va r/lib/mysql mysql
 	#-v mysql-data:/var/lib/mysql create a volume called mysql-data. 
-		
-$docker run -d -v mydata:/app/data myapp
+#To save the volume to the local file system
+$docker run -d -v /home/filepath:/app/data myapp
 	#Mounts a volume named mydata to the dir /app/data inside the container
 
 $docker system prune -f --volumes    --- to delete container
