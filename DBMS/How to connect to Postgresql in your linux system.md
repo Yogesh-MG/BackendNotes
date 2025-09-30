@@ -1,5 +1,8 @@
 ### **1. IN LINUX terminal
-
+#### Basic Commands in PgSQL
+	To enter the account                      ``$psql -U username -d databasename
+	To check the table                          databasename=# \dt  
+	
 1. **Switch to the postgres user:**
     
 ```shell

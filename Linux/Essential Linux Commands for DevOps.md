@@ -1,6 +1,13 @@
 
 A curated list of must-know Linux commands for DevOps engineers, covering system management, networking, and container workflows.
 
+## Switch From GUI to Terminal
+```bash
+  $sudo systemctl set-default graphical.target  #Terminal to GUI
+  
+  $sudo systemctl set-default multi-user.target   #GUI to Terminal
+  ```
+
 ## File Management
 - `ls` - List directory contents (`dir` equivalent).
   - Use: `ls -l` (long format), `ls -a` (show hidden).

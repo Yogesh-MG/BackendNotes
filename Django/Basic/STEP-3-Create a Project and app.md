@@ -5,7 +5,7 @@ $ python -m django --version
 
 -To create project directory (of name my-site)
 ```
-$ django-admin startproject mysite
+$ django-admin startproject mysite 
 ```
 
 -To check u have created a project

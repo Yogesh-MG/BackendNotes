@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker-Commands.md",
+                "file": "Linux/Essential Linux Commands for DevOps.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Docker-Commands"
+              "title": "Essential Linux Commands for DevOps"
+            }
+          },
+          {
+            "id": "783bc671d86cddc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/STEP-1-WHY-How to install a docker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STEP-1-WHY-How to install a docker"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,6 +221,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -210,37 +236,38 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "aef7da2a7f284519",
+  "active": "783bc671d86cddc3",
   "lastOpenFiles": [
-    "Django/Basic/STEP-5-How to add Export option to admin.md",
-    "Git.md",
+    "Linux/Essential Linux Commands for DevOps.md",
     "Docker/Docker-Commands.md",
+    "Docker/Docker-Application-Security-Check.md",
     "DBMS/How to connect to Postgresql in your linux system.md",
-    "Docker/STEP-1-WHY-How to install a docker.md",
+    "Linux/AutoPiDeploy.md",
+    "Linux",
+    "Django/Basic/STEP-5-How to add Export option to admin.md",
+    "Django/Basic/STEP-3-Create a Project and app.md",
     "Django/Basic/STEP-4-DATAMODEL & settings setup.md",
-    "Essential Linux Commands for DevOps.md",
+    "Docker/STEP-1-WHY-How to install a docker.md",
+    "Django/Basic/STEP-2-Django-File-Structure.md",
+    "Django/Basic/STEP-1-WHY-DJANGO.md",
+    "DBMS/How to install PostgreSQL/How to install PostgreSQL.md",
+    "Django/Basic/STEP-6-How to integrate Email in Django.md",
+    "Pytorch/pytorch-basic.md",
+    "Django/Django-Commands.md",
+    "Git.md",
+    "DBMS/How to link the postgresql with Django.md",
     "Django/Django-graphene-api/STEP-2-Schema-For-Graphene.md",
     "Django/GOOGLE-OAUTH-IN-DJANGO.md",
     "Django/Django-graphene-api/STEP-1-Package-Installation.md",
-    "Django/Django-Commands.md",
     "Excalidraw/Drawing 2025-03-27 21.50.38.excalidraw.md",
-    "Django/Basic/STEP-2-Django-File-Structure.md",
     "Django/Django-restfull-api/STEP-1-Package-Installation.md",
     "Django/Django-graphene-api",
     "Django/Django-restfull-api/WHAT-IS-API.md",
     "Django/Django-restfull-api/STEP-2-SERIALIZERS.md",
     "Excalidraw/Drawing 2025-03-27 21.50.38.excalidraw 1.md",
-    "DBMS/How to install PostgreSQL/How to install PostgreSQL.md",
-    "Django/Basic/STEP-3-Create a Project and app.md",
-    "DBMS/How to link the postgresql with Django.md",
-    "Django/Basic/STEP-6-How to integrate Email in Django.md",
     "Excalidraw",
     "Django/Basic/STEP-8-How to add two form in same HTML page.md",
-    "Docker/Docker-Application-Security-Check.md",
-    "Django/Basic/STEP-1-WHY-DJANGO.md",
     "Django/Django-restfull-api",
-    "2025-03-12.md",
-    "2025-03-11.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "1-Project description/Data for project/Pasted Image 20240915111805_500.png",

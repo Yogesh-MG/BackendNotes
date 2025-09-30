@@ -33,7 +33,7 @@ $docker run -d --name my-sql -e MYSQL_ROOT_PASSWORD=password -v mysql-data:/va r
 	#-v mysql-data:/var/lib/mysql create a volume called mysql-data. 
 #To save the volume to the local file system
 $docker run -d -v /home/filepath:/app/data myapp
-	#Mounts a volume named mydata to the dir /app/data inside the container
+	#Mounts a volume named /home/filepath to the dir /app/data inside the container
 
 $docker system prune -f --volumes    --- to delete container
 ```
